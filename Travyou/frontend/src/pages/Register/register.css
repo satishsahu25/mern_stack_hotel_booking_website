@@ -1,0 +1,43 @@
+.register{
+    background: green;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background: rgb(186, 185, 185);
+    height: max-content;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid rgba(168, 167, 167, 0.705);
+    border-radius: 5px;
+}
+.container label{
+    margin: 5px 0;
+}
+.container .txtbox{
+    outline: none;
+    font-size: 15px;
+    padding: 5px;
+}
+.btnsection{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.btnsection button{
+    cursor: pointer;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: rgb(2, 121, 195);
+}

@@ -1,0 +1,96 @@
+.searchitem{
+    border: 1px solid lightgray;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.siimg{
+    width: 200px;
+    height: 200px;
+    object-fit: center;
+}
+.sidesc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+.sidetails{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sititle{
+    font-size: 20px;
+    color: #0071c2;
+}
+.sidistance{
+    font-size: 12px;
+}
+.sitaxiop{
+    width: max-content;
+    font: 12px;
+    background-color: #008009;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+.sisubtitle{
+    font-size: 12px;
+    font-weight: bold;
+}
+.sifeatures{
+    font: 12px;
+}
+.sicancelop{
+    font: 12px;
+    font-weight: bold;
+    color: #008009;
+}
+.sicancelopsubtitle{
+    font: 12px;
+    color: #008009;
+}
+
+
+/* ******searchdetails*** */
+.sirating{
+    display: flex;
+    justify-content: space-between;
+}
+.sirating>button{
+   background-color: #003580;
+   color: white;
+   padding: 5px;
+    font-weight: bold;
+    border: none;
+}
+.sirating>span{
+    font-weight: 500;
+}
+.sidetailstexts{
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    gap: 5px;
+}
+.siprice{
+    font: 24px;
+}
+.sitaxop{
+    font: 12px;
+    color: gray;
+}
+.sicheckbtn{
+    background-color: #0071c2;
+    color: white;
+    padding: 10px 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}

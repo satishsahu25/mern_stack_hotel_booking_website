@@ -1,0 +1,67 @@
+.reserve{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.647);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rcontainer{
+    background: white;
+    padding: 30px;
+    position: relative;
+}
+.rclose{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.ritem{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+}
+.riteminfo{
+    display: flex;
+    flex-direction: column;
+}
+.rtitle{
+    font-weight: 500;
+}
+.rdesc{
+    font-weight: 300;
+}
+.rmax{
+    font-size: 12px;
+}
+.rprice{
+    font-weight: 500;
+}
+.rselectrooms{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-size: 8px;
+    color: gray;
+}
+.room{
+    display: flex;
+    flex-direction: column;
+}
+.rbtn{
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 20px;
+}
